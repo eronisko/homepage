@@ -1,15 +1,13 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8"
-
-
-
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif
+$base-font-family: "Open Sans", Helvetica, sans-serif
 $base-font-size:   16px
 $small-font-size:  $base-font-size * 0.875
 $base-line-height: 1.5
+
+$heading-font-family: Oswald, Helvetica, sans-serif
 
 $spacing-unit:     30px
 
@@ -42,4 +40,8 @@ $on-laptop:        800px
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import base, layout, syntax-highlighting
+@import "base", "layout", "syntax-highlighting"
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300)
+@import url(http://fonts.googleapis.com/css?family=Open+Sans)
+
+@charset "utf-8"
