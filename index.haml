@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+.home
+  %h1.page-heading Who are you, anyway?
+
+  %ul.post-list
+    {% for post in site.posts %}
+    %li
+      %span.post-meta {{ post.date | date: "%b %-d, %Y" }}
+      %h2
+        %a.post-link{:href => "{{ post.url | prepend: site.baseurl }}"} {{ post.title }}
+    {% endfor %}
+  %p.rss-subscribe
+    subscribe
+    %a{:href => "{{ "/feed.xml" | prepend: site.baseurl }}"} via RSS
