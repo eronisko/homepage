@@ -1,20 +1,20 @@
 title:            Super-Serious
 description:      The only serious web on the web
-url:              # Site url, without a slash at the end.
+# url:              http://eronisko.github.io/homepage
 signoff:          Ernest
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: UA-89939985-1
 
 links:
+  - name:         Blog
+    url:          /
   - name:         About
     url:          /about
-  - name:         Blog
-    url:          http://muan.co
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/muan
-    external:     true
+  #   external:     true
+  # - name:         GitHub
+  #   url:          http://github.com/muan
+  #   external:     true
 highlighter:      pygments
 permalink:        pretty
 markdown:         redcarpet
