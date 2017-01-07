@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Self-cleaning 'tmp' directory in Windows
+title: Self-cleaning &#8217;tmp&#8217; directory in Windows
 date: 2017-01-08 10:00:00
 ---
 
