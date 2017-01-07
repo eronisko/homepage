@@ -1,6 +1,6 @@
 title:            Super-Serious
 description:      The only serious web on the web
-url:              http://super-serious.com/
+url:              http://super-serious.com
 signoff:          Ernest
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
