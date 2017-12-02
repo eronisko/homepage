@@ -52,5 +52,4 @@ Under Security options, click on **Change User or Group...**. After entering
 ![Alt text](http://i.imgur.com/oRWXnLo.png "Optional title")
 
 That should be all. You can test the script right from the Task Scheduler (use
-the Actions pane on the right). If the script doesn't seem to run on login (but works when executed manually), you can [enable task history][SOHistory] to de-bug.
-[SOHistory]: http://stackoverflow.com/q/11013132/1167094
+the Actions pane on the right). If the script doesn't seem to run on login (but works when executed manually), you can [enable task history](http://stackoverflow.com/q/11013132/1167094) to de-bug.
